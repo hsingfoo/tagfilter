@@ -115,7 +115,7 @@ function tagfilter_submit(id,ns,flags)
 	 */
 	document
 		.querySelectorAll(`
-			#tagfilter_ergebnis_${id}.tagfilter > div.table > table.plgn__pglist > tbody > tr,
+  			#tagfilter_ergebnis_${id}.tagfilter > div > table.plgn__pglist > tbody > tr,
 			#tagfilter_ergebnis_${id}.tagfilter > ul > li,
 			#tagfilter_ergebnis_${id}.tagfilter > div.plugin_include_content
 		`)
